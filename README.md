@@ -17,9 +17,6 @@ Pursuit CRM is a restaurant-focused Customer Relationship Management (CRM) syste
 - **Frontend**: React.js, TailwindCSS
 - **Backend**: Golang (Gin Framework, sqlc)
 - **Database**: PostgreSQL
-- **Authentication**: Supabase Auth
-- **Messaging**: Twilio (for SMS), SendGrid (for emails)
-- **Hosting & Deployment**: AWS (EC2, RDS, S3)
 
 ## Installation
 
@@ -27,7 +24,7 @@ Pursuit CRM is a restaurant-focused Customer Relationship Management (CRM) syste
 Ensure you have the following installed:
 - Go 1.18+
 - Node.js 16+
-- PostgreSQL
+
 
 ### Backend Setup
 ```bash
@@ -44,4 +41,4 @@ cd ../frontend
 npm install
 npm run dev
 ```
-\
+
